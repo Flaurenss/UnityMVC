@@ -26,8 +26,8 @@ to create the fixed data which we are interested in having grouped: rotation spe
 As for the view, this will be a Monobehaviour (PanelView) in charge of subscribing to a series of events created in the Controller and from these will receive the data to modify the graphic elements of the application. That is to say, the only responsibility that the view has will be to directly modify the values of the graphic elements.
 
 As for controllers we have 2 to be precise:
-- UserInput: in charge of receiving the input and transferring to the controller of the graphic panel if the user is pressing the designated key.
-- PanelController: computes the UserInput data in order to know the values that correspond to the element from the View.
+- **UserInput:** in charge of receiving the input and transferring to the controller of the graphic panel if the user is pressing the designated key.
+- **PanelController:** computes the UserInput data in order to know the values that correspond to each view element.
 
 PanelController is a dependency from UserInput, but as you can see, an external class (MainInjector) has been used as a dependency injector and thus remove UserInput from the responsibility of creating the PanelController instance.
 
