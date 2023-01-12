@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b25e7bc63e760459a222608f6a4ff5, type: 3}
+  m_Name: NeedleData
+  m_EditorClassIdentifier: 
+  m_MinRight_NeedleValue: 0
+  m_MinLeft_NeedleValue: 0
+  m_MaxRight_NeedleValue: -270
+  m_MaxLeft_NeedleValue: -180
+  m_RightNeedleVelocity: 20
+  m_LeftNeedleVelocity: 10
+  m_RightTrailArc: -360
+  m_LeftTrailArc: -180
